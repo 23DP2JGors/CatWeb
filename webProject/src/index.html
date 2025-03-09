@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cat Lovers</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <img src="CATS.png" alt="Cat Logo">
+        <nav>
+            <ul>
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#fun">Fun</a></li>
+                <li><a href="#game">Game</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="hero" class="hero">
+        <h1>Cats Make the World Purr!</h1>
+        <p>Discover the joy of our feline friends.</p>
+    </section>
+    
+    <section id="about" class="section">
+        <h2>About Cats</h2>
+        <p>Cats are wonderful companions, known for their playful and independent nature.</p>
+    </section>
+    
+    <section id="gallery" class="section">
+        <h2>Random Cat Picture</h2>
+        <img id="catImage" src="" alt="Random Cat">
+        <button onclick="getRandomCat()">Show Another Cat</button>
+    </section>
+    
+    <section id="fun" class="section">
+        <h2>Cat Facts</h2>
+        <p id="catFact">Loading a fun cat fact...</p>
+        <button onclick="getCatFact()">Get New Fact</button>
+    </section>
+    
+    <section id="game" class="section">
+        <h2>Guess the Number</h2>
+        <button id="startGameButton">Play</button>
+    </section>
+    
+    <section id="contact" class="section">
+        <h2>Contact Us</h2>
+        <p>Email: cats@example.com</p>
+        <p>Phone: +123 456 789</p>
+        <p>Follow us on social media!</p>
+    </section>
+    
+    <footer>
+        <p>© 2025 Cat Lovers. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
